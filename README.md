@@ -15,9 +15,9 @@ where necessary, replace 'username' and 'password' with your actual credentials 
 
 <pre> # Project Structure
   CPS510/
-  ├── menu.sh # Main menu interface
-  ├── create_tables.sh # Schema initialization
-  ├── drop_tables.sh # Database cleanup
-  ├── populate_tables.sh # Sample data loading
-  ├── queries.sh # Comprehensive query reports
-  └── Oracle12c.sql # Complete SQL schema & data </pre>
+  ├── menu.sh             # Main menu interface
+  ├── create_tables.sh    # Schema initialization
+  ├── drop_tables.sh      # Database cleanup
+  ├── populate_tables.sh  # Sample data loading
+  ├── queries.sh          # Comprehensive query reports
+  └── Oracle12c.sql       # Complete SQL schema & data </pre>
