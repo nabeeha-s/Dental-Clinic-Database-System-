@@ -23,23 +23,25 @@ where necessary, replace 'username' and 'password' with your actual credentials 
   ├── queries.sh          # Comprehensive query reports
   └── Oracle12c.sql       # Complete SQL schema & data </pre>
 
-  # For the Web UI
-  1) Prerequisites
+# For the Web UI
+1) Prerequisites
 - Python 3.8+
 - Oracle Instant Client + ORACLE_HOME or Oracle DB access
 - `sqlplus` or Oracle SQL*Plus/SQLcl available (for loading SQL)
 
-  2) Credentials Configuration
+2) Credentials Configuration
 
 Update the database connection section with your own Oracle credentials.
 
 Replace:
+
     username = "[username]"
+    
     password = "[password]"
 
-with your actual Oracle login details provided by the server.
+with your Oracle login details provided by the server.
 
-  3) Install Python deps
+3) Install Python deps
   ```bash
   python3 -m venv venv
   source venv/bin/activate
