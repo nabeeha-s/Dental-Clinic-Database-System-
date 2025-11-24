@@ -65,7 +65,6 @@ CREATE TABLE Allergy (
   Name VARCHAR2(100) UNIQUE NOT NULL
 );
 
--- Rest of your tables in this order:
 CREATE TABLE Staff (
     StaffID NUMBER PRIMARY KEY,
     FirstName VARCHAR2(50) NOT NULL,
